@@ -8,6 +8,8 @@ local constructor_kind = nil
 
 local options = {}
 
+local options = {}
+
 _G.MPairs.completion_done = function()
     local line = utils.text_get_current_line(0)
     local _, col = utils.get_cursor()
